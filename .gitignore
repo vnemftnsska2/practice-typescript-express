@@ -7,3 +7,10 @@ node_modules/
 #Lock
 package-lock.json
 yarn.lock
+
+#env
+env/
+.env
+
+#Log
+yarn-error.log
