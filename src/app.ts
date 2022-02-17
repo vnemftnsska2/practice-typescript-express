@@ -7,7 +7,6 @@ import TaskRoutes from './routes/task.routes';
 
 class App {
   private app: Application;
-
   constructor(private port?: number | string) {
     this.app = express();
     require("dotenv").config();
