@@ -32,7 +32,7 @@ class App {
 
   async listen() {
     await this.app.listen(this.app.get('port'));
-    console.log('Server On Port', this.app.get('port'));
+    console.log('CarBoard API Server On Port', this.app.get('port'));
   }
 };
 
